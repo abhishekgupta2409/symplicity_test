@@ -2,7 +2,11 @@
     "name": "symp",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "build": "cd symplicityTest && ng build --prod"
+    },
     "dependencies": {
         "body-parser": "^1.18.2",
         "cors": "^2.8.4",
@@ -11,10 +15,7 @@
         "nodemon": "^1.14.12"
     },
     "devDependencies": {},
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "build": "cd symplicityTest && ng build --prod"
-    },
+
     "author": "",
     "license": "ISC"
 }
